@@ -10,7 +10,6 @@ body {
    text-align: center;
    background-color: rgb(0, 0, 0);
    margin-top: 10px;
-
 }
 
 header {
@@ -32,6 +31,12 @@ header h1 {
 
 }
 
+header h2:hover {
+    color: rgb(255, 15, 15);
+    transition: 2s;
+    
+}
+
 nav {
     display: inline-block;
     padding: 10px;
@@ -44,11 +49,9 @@ a {
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
- 
 }
 
 #vader {
-    
     width: 300px;
     height: 300px;
     margin: auto;
@@ -59,6 +62,10 @@ a {
     background-repeat: no-repeat;
 }
 
+#vader:hover {
+    border: rgb(255, 255, 11) solid 5px;
+    transition: 1s;
+}
 
 
 
@@ -69,6 +76,7 @@ main {
     text-align: left;
     padding-top: 30px;
 }
+
 main h2 {
     text-align: center;
     color: white;
@@ -84,5 +92,16 @@ main h2 {
 
 p {
     color: rgb(239, 239, 239);
+}
+
+#planet {
+    background-color: rgb(0, 0, 0);
+}
+
+#planet:hover {
+    background-image: url(nasa-V4ZksNimxLk-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: fadeIn 5s;
     
 }
